@@ -1,0 +1,65 @@
+@import'../../main-styles.scss';
+.top-bar{
+    display: flex  ;
+    width: 100%;
+    height: 68px;
+    background:linear-gradient(75deg,#ff8f8f ,#dfa3fa,#8da8e7 );
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 1px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $dark;
+    }
+}
+
+ 
+.mahdi{
+    display:  flex  ;
+    height: 250px;
+    background:#433d3d;
+    
+    justify-content: center;
+    align-items: center;
+
+    
+h2{
+    font-family: 'lato';
+    font-weight: 300 ;
+font-size: 50px;
+color: white;
+&.green {
+    color: lighten($green, 15%)  ;
+
+}
+&.red {
+    color: lighten($red, 15%);
+
+}
+
+
+
+}
+}
+.add-item-section{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   
+    .add-item-container{
+        width: 680px;
+
+      
+    }
+}
+.green {
+    color: lighten($green, 15%)  ;
+
+}
+.red {
+    color: lighten($red, 15%);
+
+}
